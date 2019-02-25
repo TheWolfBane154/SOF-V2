@@ -30,4 +30,4 @@ console.log(`${message.author.username} used the ${message.content.split(" ")[0]
   }
 })
 
-bot.login(process.evl.token)
+bot.login(process.env.token)
